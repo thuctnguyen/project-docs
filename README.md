@@ -209,6 +209,9 @@ A good design will also give you an idea of the level of effort required to impl
 Implementation
 --------------
 ### Coding Guidelines
+##### Follow Python Coding Styles 
+http://www.python.org/dev/peps/pep-0008/
+
 ##### Separate configurations from code. 
 Usernames, passwords, endpoints, etc., belong in a configuration file. These things change depending on environments and use cases, and should not be hard coded. When you find yourself using numbers and string literals in the code, consider whether it should be extracted to a configuration file instead. OpenStack has a great [utility](https://wiki.openstack.org/wiki/Oslo#oslo.config) for reading from configuration files.
 
